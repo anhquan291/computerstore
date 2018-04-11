@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>Computer Store</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="Computer Store" />
+        <meta name="author" content="Anh Quan" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="js/boxover.js"></script>
+        <link rel="stylesheet" href="css/style.css">       
+  </head>
+  <body>
+      <div class="main">
+          <!-- TOP START -->
+          <div class="top col-12">
+              <div ID="logo1">
+                <a href="#"><img src="img/logo.png" width="30" alt=""></a>
+              </div>
+              <div class="language">
+                  <div>Languages: </div>
+                  <a href="#"><img src="img/en.png" width="20" alt="EN"></a>
+                  <a href="#"><img src="img/gr.png" width="20" alt="GR"></a>
+              </div>
+              <div class="search">
+                  <div class="search-text"><a href="#">Search</a></div>
+                  <input type="text" class="search-input" name=search>
+                  <input type="image" src="img/search.png" width="25" class="search_bt" title="Search">
+              </div>       
+          </div>
+          <!-- TOP END -->
+          <!-- HEADER START -->
+          <div class="header">
+              <div id="logo"><a href="index.html"><img src="img/logo1.png"  width="200" alt=""></a></div>
+              <div class="slider">
+                  <div class="top_divider"><img src="img/divider.png" alt=""></div>
+                  <div class="slide_content">
+                      <div class="content">
+                           <img src="img/laptop1.png" width="135" class="slide_img" alt="">
+                           <div class="slide_details">
+                             <div class="slide_title">Dell Vostrol 7537</div>
+                             <div class="slide_text">The XPS 13, Dell's venerable ultraportable with the bezel-free screen, gets Intel's new quad-core CPU, with electrifying results in both speed and battery life.</div>
+                             <a href="detail.html" class="details">Details</a>
+                          </div>
+                      </div>
+                      <!-- vì class content sử dụng nhiều float nên khi qua một class khác cần dùng clear -->
+                      <div class="clr"></div>
+                      <div class="pagination">
+                        <span class="active">1</span> <!-- hoặc class ="current" -->
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                      </div>
+                  </div>
+                  <div class="top_divider"><img src="img/divider.png" alt=""></div>
+              </div>         
+          </div>
+          <!-- HEADER END -->
+          <div class="clr"></div>
+          <!-- CONTENT START -->
+          <div class="content">
+              <!-- Menu tab -->
+              <div id="menu_tab">
+                <div class="left_menu_conner"></div>
+                  <ul class="menu">
+                      <li><a href="index.html" id="nav_home">Home</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#" id="nav_prod">Products</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#" id="nav_spec">Specials</a></li>
+                      <li class="divider"></li>
+                       <li><a href="#" id="nav_acco">My Account</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#" id="nav_sign">Sign up</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#" id="nav_ship">Shipping</a></li>
+                      <li class="divider"></li>
+                      <li><a href="contact.html" id="nav_cont">Contact</a></li>
+                      <li class="divider"></li>
+                      <li class="currencies">Currencies
+                        <select name="" id="">
+                            <option value="">US Dollar</option>
+                            <option value="">Euro</option>
+                            <option value="">VND</option>
+                        </select>
+                      </li>
+                  </ul>
+                <div class="right_menu_conner"></div>
+              </div>   <!-- END Menu tab -->
+              <div class="clr"></div>
+
+              <!-- Navigation -->
+              <div class="navigation">
+                  Naviagtion: <span class="current">Home</span>
+              </div>
+              <!-- End Navigation -->
+              <!-- Left content -->
+              <div class="left_content">
+                <!-- Categories -->
+                    <div class="title_box">Categories</div>
+                    <ul class="left_menu">
+                      <li class="odd"><a href="#">Processor</a></li>
+                      <li class="even"><a href="#">Screen</a></li>
+                      <li class="odd"><a href="#">Mainboard</a></li>
+                      <li class="even"><a href="#">Desktop</a></li>
+                      <li class="odd"><a href="#">Laptop</a></li>
+                      <li class="even"><a href="#">Notebook</a></li>
+                      <li class="odd"><a href="#">Cable</a></li>
+                      <li class="even"><a href="#">Keyboard</a></li>
+                      <li class="odd"><a href="#">Mouse</a></li>
+                      <li class="even"><a href="#">Audio</a></li>
+                    </ul>
+                   <!-- END categories -->
+                  <!-- Special Product -->
+                  <div class="title_box">Speical Offer</div>
+                  <div class="border_box">
+                      <div class="product_title"><a href="detail.html">Dell Inspiron N3567E</a></div>
+                      <div class="product_img"><a href="detail.html"><img src="img/dell.png" width="195" alt="Dell"></a></div>
+                      <div class="product_price">
+                          <span class="reduce">$1200</span>
+                          <span class="price">$900</span>
+                      </div>
+                  </div>
+                  <!-- NEW LETTER -->
+                  <div class="title_box">New Letter</div>
+                  <div class="border_box">
+                    <input type="text" name="newletter" class="newletter_input" value="Your email">
+                    <a href="#" class="signup">Sign up</a>
+                  </div>
+
+                  <!-- Banner -->
+                  <div class="banner_ads">
+                    <a href="#"><img src="img/ads.jpg" alt="new Iphone"></a>
+                    <a href="#"><img src="img/ads1.jpg" alt="new Iphone"></a>
+                  </div>
+              </div> <!-- END left content -->     
+              
+             <!--  Center Content -->
+             <div class="center_content">
+               
+                 <!-- Product line 1 -->
+                <div class="prod_box">
+                  <div class="product_title"><a href="#">Dell Inspiron N3567E</a></div>
+                      <div class="product_img"><a href="detail.html"><img src="img/dell.png" width="195" alt="Dell"></a></div>
+                      <div class="product_price">
+                          <span class="reduce">$1200</span>
+                          <span class="price">$900</span>
+                      </div>           
+                </div> <!-- END Product -->
+
+                <div class="prod_box">
+                  <div class="product_title"><a href="#">HP 15 bs578TU N3710</a></div>
+                      <div class="product_img"><a href=""><img src="img/hp.png" width="195" alt="HP"></a></div>
+                      <div class="product_price">
+                          <span class="reduce">$800</span>
+                          <span class="price">$500</span>
+                      </div>           
+                </div><!-- END Product -->
+
+                <div class="prod_box">
+                  <div class="product_title"><a href="#">Dell Vostro 7537</a></div>
+                      <div class="product_img"><a href=""><img src="img/dell2.png" width="195" alt="Dell"></a></div>
+                      <div class="product_price">
+                          <span class="reduce">$1500</span>
+                          <span class="price">$1000</span>
+                      </div>           
+                </div><!-- END Product line 1 -->
+
+                <!-- Products Line 1 details -->
+                <div class="clr"></div>
+                <div class="pro_detail_tab"> 
+                  <a href="#" title="header=[Add to cart] body=[&nbsp;]"><img src="img/cart1.png" alt="Cart" class="left_bt"></a>
+                  <a href="#" title="header=[Add to favorite] body=[&nbsp;]"><img src="img/star.png" alt="Favorite" class="left_bt"></a>
+                  <a href="#" title="header=[Gift] body=[&nbsp;]"><img src="img/gift1.png" alt="Cart" class="left_bt"></a>
+                  <a href="detail.html" class="prod_detail">details</a>
+                </div>
+                <div class="pro_detail_tab"> 
+                  <a href="#" title="header=[Add to cart] body=[&nbsp;]"><img src="img/cart1.png" alt="Cart" class="left_bt"></a>
+                  <a href="#" title="header=[Add to favorite] body=[&nbsp;]"><img src="img/star.png" alt="Favorite" class="left_bt"></a>
+                  <a href="#" title="header=[Gift] body=[&nbsp;]"><img src="img/gift1.png" alt="Cart" class="left_bt"></a>
+                  <a href="#" class="prod_detail">details</a>
+                </div>
+                <div class="pro_detail_tab"> 
+                  <a href="#" title="header=[Add to cart] body=[&nbsp;]"><img src="img/cart1.png" alt="Cart" class="left_bt"></a>
+                  <a href="#" title="header=[Add to favorite] body=[&nbsp;]"><img src="img/star.png" alt="Favorite" class="left_bt"></a>
+                  <a href="#" title="header=[Gift] body=[&nbsp;]"><img src="img/gift1.png" alt="Cart" class="left_bt"></a>
+                  <a href="#" class="prod_detail">details</a>
+                </div> <!-- End product line1 details -->
+                 <!-- Product line 2 -->
+                <div class="prod_box">
+                  <div class="product_title"><a href="#">LG UltraWide Monitor</a></div>
+                      <div class="product_img"><a href=""><img src="img/lg.png" width="195" alt="LG screen"></a></div>
+                      <div class="product_price">
+                          <span class="reduce">$300</span>
+                          <span class="price">$200</span>
+                      </div>           
+                </div> <!-- END Product -->
+                <div class="prod_box">
+                  <div class="product_title"><a href="#">Razer Lancehead</a></div>
+                      <div class="product_img"><a href=""><img src="img/razor.png" width="195" alt="razer mouse"></a></div>
+                      <div class="product_price">
+                          <span class="reduce">$200</span>
+                          <span class="price">$150</span>
+                      </div>           
+                </div><!-- END Product -->
+                <div class="prod_box">
+                  <div class="product_title"><a href="#">Razer Naga Chroma Gaming</a></div>
+                      <div class="product_img"><a href=""><img src="img/razor1.png" width="195" alt="Razer Naga"></a></div>
+                      <div class="product_price">
+                          <span class="reduce">$300</span>
+                          <span class="price">$220</span>
+                      </div>           
+                </div><!-- END Product line 2 -->
+                <!-- Products Line 2 details -->
+                <div class="clr"></div>
+                <div class="pro_detail_tab"> 
+                  <a href="#" title="header=[Add to cart] body=[&nbsp;]"><img src="img/cart1.png" alt="Cart" class="left_bt"></a>
+                  <a href="#" title="header=[Add to favorite] body=[&nbsp;]"><img src="img/star.png" alt="Favorite" class="left_bt"></a>
+                  <a href="#" title="header=[Gift] body=[&nbsp;]"><img src="img/gift1.png" alt="Cart" class="left_bt"></a>
+                  <a href="#" class="prod_detail">details</a>
+                </div>
+                <div class="pro_detail_tab"> 
+                  <a href="#" title="header=[Add to cart] body=[&nbsp;]"><img src="img/cart1.png" alt="Cart" class="left_bt"></a>
+                  <a href="#" title="header=[Add to favorite] body=[&nbsp;]"><img src="img/star.png" alt="Favorite" class="left_bt"></a>
+                  <a href="#" title="header=[Gift] body=[&nbsp;]"><img src="img/gift1.png" alt="Cart" class="left_bt"></a>
+                  <a href="#" class="prod_detail">details</a>
+                </div>
+                <div class="pro_detail_tab"> 
+                  <a href="#" title="header=[Add to cart] body=[&nbsp;]"><img src="img/cart1.png" alt="Cart" class="left_bt"></a>
+                  <a href="#" title="header=[Add to favorite] body=[&nbsp;]"><img src="img/star.png" alt="Favorite" class="left_bt"></a>
+                  <a href="#" title="header=[Gift] body=[&nbsp;]"><img src="img/gift1.png" alt="Cart" class="left_bt"></a>
+                  <a href="#" class="prod_detail">details</a>
+                </div> <!-- End product line2 details -->
+                  <!-- Recommended Products -->
+                 <div class="center_title_bar1">Recommended Products</div>
+                 <!-- Product line 1 -->
+                <div class="prod_box">
+                  <div class="product_title"><a href="#">Apple 13" MacBook Air</a></div>
+                      <div class="product_img"><a href=""><img src="img/macbook1.png" width="195" alt="Macbook"></a></div>
+                      <div class="product_price">
+                          <span class="reduce">$3200</span>
+                          <span class="price">$3000</span>
+                      </div>           
+                </div> <!-- END Product -->
+                <div class="prod_box">
+                  <div class="product_title"><a href="#">Toshiba Satellite L645-S4102</a></div>
+                      <div class="product_img"><a href=""><img src="img/toshiba.png" width="195" alt="Toshiba"></a></div>
+                      <div class="product_price">
+                          <span class="reduce">$600</span>
+                          <span class="price">$400</span>
+                      </div>           
+                </div><!-- END Product -->
+                <div class="prod_box">
+                  <div class="product_title"><a href="#">ASUS Vivobook S S510UA</a></div>
+                      <div class="product_img"><a href=""><img src="img/asus.png" width="195" alt="Asus"></a></div>
+                      <div class="product_price">
+                          <span class="reduce">$1100</span>
+                          <span class="price">$850</span>
+                      </div>           
+                </div><!-- END Product line 1 -->
+                <!-- Products Line 1 details -->
+                <div class="clr"></div>
+                <div class="pro_detail_tab"> 
+                  <a href="#" title="header=[Add to cart] body=[&nbsp;]"><img src="img/cart1.png" alt="Cart" class="left_bt"></a>
+                  <a href="#" title="header=[Add to favorite] body=[&nbsp;]"><img src="img/star.png" alt="Favorite" class="left_bt"></a>
+                  <a href="#" title="header=[Gift] body=[&nbsp;]"><img src="img/gift1.png" alt="Cart" class="left_bt"></a>
+                  <a href="#" class="prod_detail">details</a>
+                </div>
+                <div class="pro_detail_tab"> 
+                  <a href="#" title="header=[Add to cart] body=[&nbsp;]"><img src="img/cart1.png" alt="Cart" class="left_bt"></a>
+                  <a href="#" title="header=[Add to favorite] body=[&nbsp;]"><img src="img/star.png" alt="Favorite" class="left_bt"></a>
+                  <a href="#" title="header=[Gift] body=[&nbsp;]"><img src="img/gift1.png" alt="Cart" class="left_bt"></a>
+                  <a href="#" class="prod_detail">details</a>
+                </div>
+                <div class="pro_detail_tab"> 
+                  <a href="#" title="header=[Add to cart] body=[&nbsp;]"><img src="img/cart1.png" alt="Cart" class="left_bt"></a>
+                  <a href="#" title="header=[Add to favorite] body=[&nbsp;]"><img src="img/star.png" alt="Favorite" class="left_bt"></a>
+                  <a href="#" title="header=[Gift] body=[&nbsp;]"><img src="img/gift1.png" alt="Cart" class="left_bt"></a>
+                  <a href="#" class="prod_detail">details</a>
+                </div> <!-- End product line1 details -->
+             </div>
+              <!-- Right Content -->
+              <div class="right_content">
+                  <div class="shopping_cart">
+                      <div class="cart_title">Shopping Cart</div>
+                      <div class="cart_detail">
+                        3 items</br>
+                        <span class="border_cart"></span>
+                        Total: <span class="price">$250</span>
+                      </div>
+                      <div class="cart_icon">
+                        <a href="#" title="header=[Checkout] body=[&nbsp;]" ><img src="img/cart.png" alt="Checkout"></a>
+                      </div>
+                  </div>
+               <!-- New Product -->
+                  <div class="title_box">What's new</div>
+                  <div class="border_box">
+                      <div class="product_title"><a href="#">MacBook Pro</a></div>
+                      <div class="product_img"><a href=""><img src="img/macbook.png" width="195" alt="Macbook"></a></div>
+                      <div class="product_price">
+                          <span class="reduce">$2000</span>
+                          <span class="price">$1500</span>
+                      </div>
+                  </div>   
+                <!-- End New product -->
+                <!-- Manufactures -->
+                <div class="title_box">Manufactures</div>
+                    <ul class="left_menu">
+                      <li class="odd"><a href="#">Apple</a></li>
+                      <li class="even"><a href="#">Dell</a></li>
+                      <li class="odd"><a href="#">HP</a></li>
+                      <li class="even"><a href="#">Lenovo</a></li>
+                      <li class="odd"><a href="#">Asus</a></li>
+                      <li class="even"><a href="#">Arcer</a></li>
+                      <li class="odd"><a href="#">LG</a></li>
+                      <li class="even"><a href="#">Samsung</a></li>
+                    </ul>
+                  <!-- Banner -->
+                  <div class="banner_ads">
+                    <a href="#"><img src="img/ads2.jpg" alt="new Iphone"></a>
+                    <a href="#"><img src="img/ads3.jpg" alt="new Iphone"></a>
+                  </div>
+              </div> <!-- END right content -->
+          </div>
+          <!-- CONTENT END -->
+          <div class="clr"></div>
+          <!-- START FOOTER -->
+          <div class="footer">
+              <div class="left_footer">
+                  <img src="img/logo1.png" alt="logo">
+              </div>
+              <div class="center_footer">
+                  Computer Store. All rights reserved 2017 </br>
+                  <img src="img/payment.png" alt="">
+              </div>
+              <div class="right_footer">
+                <a href="index.html">Home</a>
+                <a href="#">About</a>
+                <a href="#">Sitemap</a>
+                <a href="contact.html">Contact</a>        
+              </div>   
+          </div>
+      </div>
+  </body>
+</html>
+
